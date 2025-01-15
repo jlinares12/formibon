@@ -1,0 +1,38 @@
+h4{
+    background-color: darkblue;
+    color:aliceblue;
+    text-align:center;
+}
+
+div.myReasons{
+    text-align: center;
+}
+
+li{
+    padding-right: 10px;
+}
+
+ul{
+    background-color: lightblue;
+    border: 2px solid;
+    display: inline-block;
+    text-align: left;
+}
+
+table{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    text-align:center;
+}
+
+.daysOfTheWeek{
+    background-color: lightblue;
+}
+
+.times{
+    background-color: aliceblue;
+}
