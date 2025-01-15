@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>For Mi Bonbonshita</title>
+        <link rel="stylesheet" href="StyleSheets/index.css">
+    </head>
+    <script>
+        // JavaScript function to handle the redirection after form submission
+        function redirectToPage() {
+            // After form submission, redirect to a new page
+            window.location.href = "accept-page.html";
+            return false;  // Prevent actual form submission to server
+        }
+    </script>
+
+    <body>
+        <header>
+            <h1>Hello & Welcome!</h1>
+            <h3>This website is for a very special person</h3>
+            <h4>Please fill out the following form to verify you're the correct person</h4>
+            <hr>
+        </header>
+
+        <form method="POST" onsubmit="return redirectToPage();" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input id="name"type="text" required placeholder="First Last">
+
+            <br><br>
+            <label for="DOB">Date of Birth:</label>
+            <input id="DOB" type="date" placeholder="mm/dd/yyyy" required>
+
+            <br><br>
+            <label for="phone">Telephone:</label>
+            <input id="phone" type="tel" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            
+            <br><br>
+            <label for="cartoon">Favorite Nickelodeon Cartoon:</label>
+            <input id="cartoon" type="text" required>
+
+            <br><br>
+            <fieldset>
+                <legend id="gender">Gender:</legend>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" value="Male" name="Gender">
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" value="Female" name="Gender">
+                <label for="Non-binary">Non-binary</label>
+                <input type="radio" id="Non-binary" value="Non-binary" name="Gender">
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" value="Other" name="Gender">
+            </fieldset>
+
+            <br>
+            <label for="payment">Payment (you really thought this website was gonna be free??)</label>
+            <br>
+            <select id="payment">
+                <option></option>
+                <option>Kiss</option>
+                <option>Hug</option>
+                <option>Dealer's choice</option>
+            </select><br>
+
+            <br>
+            <input type="reset">
+            <br>
+            <input type="submit">
+        </form>
+
+        <footer>
+            <hr>
+            Author: Juan Linares<br>
+            &copy; copyright reserved<br>
+            <small><a href="mailto:juanlinares821@yahoo.com">juanlinares821@yahoo.com</a></small>
+        </footer>
+    </body>
+</html>

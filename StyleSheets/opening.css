@@ -1,0 +1,44 @@
+header{
+    background-color: rgb(208, 23, 96);
+    text-align: center;
+
+    h1{
+        color: rgb(255, 179, 209);
+    }
+    
+    h5{
+        color: rgb(255, 179, 209);
+        font-weight: bold;
+    }
+}
+
+footer{
+    background-color: rgb(208, 23, 96);
+    color: rgb(255, 179, 209);
+    text-align: center;
+    
+}
+
+body{
+    font-family: Bangers;
+}
+
+.poemTitle{
+    color:  rgb(207, 33, 105);
+    font-weight: bold;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.poem{
+    background-color: rgb(255, 85, 157);
+    color: rgb(250, 246, 248);
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(255, 179, 209);
+    margin: 4px 2px;
+    border-radius: 10px;
+}
