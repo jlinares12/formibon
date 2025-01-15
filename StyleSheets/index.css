@@ -23,6 +23,10 @@ form{
     box-shadow: 4px 4px 5px lightskyblue;
 }
 
+#formContent{
+    padding: 10px;
+}
+
 h1{
     color:darkblue;
 }

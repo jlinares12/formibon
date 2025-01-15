@@ -43,9 +43,27 @@
 
 
         <footer>
-            <a href="banana.html"><button>Click here if you like me</button></a>
+            <a href="banana.html"><button id="like">Click here if you like me</button></a>
+            <script>
+                var btn = document.getElementById("like");
+                btn.addEventListener("mouseover", function(){
+                    this.textContent = "YAYAYAYAYAYAYA!";
+                })
+                btn.addEventListener("mouseout", function(){
+                    this.textContent = "Click here if you like me"
+                })
+            </script>
             <br>
-            <a href="try_again.html"><button>Click here if you don't like me</button></a>
+            <a href="try_again.html"><button id="dislike">Click here if you don't like me</button></a>
+            <script>
+                var btn = document.getElementById("dislike");
+                btn.addEventListener("mouseover", function(){
+                    this.textContent = "BOOOOOOOOOOOOOOO!";
+                })
+                btn.addEventListener("mouseout", function(){
+                    this.textContent = "Click here if you don't like me"
+                })
+            </script>
         </footer>
     </body>
 </html>

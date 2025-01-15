@@ -23,48 +23,51 @@
 
         <div id="form">
             <form method="POST" onsubmit="return redirectToPage();" enctype="multipart/form-data">
-                <label for="name">Name:</label>
-                <input id="name"type="text" required placeholder="First Last">
-
-                <br><br>
-                <label for="DOB">Date of Birth:</label>
-                <input id="DOB" type="date" placeholder="mm/dd/yyyy" required>
-
-                <br><br>
-                <label for="phone">Telephone:</label>
-                <input id="phone" type="tel" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                
-                <br><br>
-                <label for="cartoon">Favorite Nickelodeon Cartoon:</label>
-                <input id="cartoon" type="text" required>
-
-                <br><br>
-                <fieldset>
-                    <legend id="gender">Gender:</legend>
-                    <label for="Male">Male</label>
-                    <input type="radio" id="Male" value="Male" name="Gender">
-                    <label for="Female">Female</label>
-                    <input type="radio" id="Female" value="Female" name="Gender">
-                    <label for="Non-binary">Non-binary</label>
-                    <input type="radio" id="Non-binary" value="Non-binary" name="Gender">
-                    <label for="Other">Other</label>
-                    <input type="radio" id="Other" value="Other" name="Gender">
-                </fieldset>
-
-                <br>
-                <label for="payment">Payment (you really thought this website was gonna be free??)</label>
-                <br>
-                <select id="payment">
-                    <option></option>
-                    <option>Kiss</option>
-                    <option>Hug</option>
-                    <option>Dealer's choice</option>
-                </select><br>
-
-                <br>
-                <input type="reset">
-                <br>
-                <input type="submit">
+                <div id="formContent">
+                    <label for="name">Name:</label>
+                    <input id="name"type="text" required placeholder="First Last">
+    
+                    <br><br>
+                    <label for="DOB">Date of Birth:</label>
+                    <input id="DOB" type="date" placeholder="mm/dd/yyyy" required>
+    
+                    <br><br>
+                    <label for="phone">Telephone:</label>
+                    <input id="phone" type="tel" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    
+                    <br><br>
+                    <label for="cartoon">Favorite Nickelodeon Cartoon:</label>
+                    <input id="cartoon" type="text" required>
+    
+                    <br><br>
+                    <fieldset>
+                        <legend id="gender">Gender:</legend>
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Male" value="Male" name="Gender">
+                        <label for="Female">Female</label>
+                        <input type="radio" id="Female" value="Female" name="Gender">
+                        <label for="Non-binary">Non-binary</label>
+                        <input type="radio" id="Non-binary" value="Non-binary" name="Gender">
+                        <label for="Other">Other</label>
+                        <input type="radio" id="Other" value="Other" name="Gender">
+                    </fieldset>
+    
+                    <br>
+                    <label for="payment">Payment (you really thought this website was gonna be free??)</label>
+                    <br>
+                    <select id="payment">
+                        <option></option>
+                        <option>Kiss</option>
+                        <option>Hug</option>
+                        <option>Dealer's choice</option>
+                    </select><br>
+    
+                    <br>
+                    <input type="reset">
+                    <br>
+                    <input type="submit">
+          
+                </div>
             </form>
         </div>
         
